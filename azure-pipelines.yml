@@ -16,5 +16,5 @@ steps:
 - script: mvn clean install
   displayName: Build the project
 
-- script: ava -jar target/MavenAppExt-1.0-SNAPSHOT.jar
+- script: java -jar target/MavenAppExt-1.0-SNAPSHOT.jar
   displayName: Run the App 
