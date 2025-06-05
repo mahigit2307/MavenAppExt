@@ -14,7 +14,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: mvn clean install
-  displayName: Build the project
+  displayName: 'Build the project'
 
 - script: java -jar target/MavenAppExt-1.0-SNAPSHOT.jar
-  displayName: Run the App 
+  displayName: 'Run the App' 
